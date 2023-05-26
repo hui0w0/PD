@@ -132,6 +132,15 @@ footer {
 }
 
 /* about page */
+.card-header{
+  background-color: #a15e5e;
+  color: white;
+}
+
+.awards{
+  box-shadow: 3px 3px 3px grey;
+}
+
 .align-item-center{
   display: flex;
   align-items: center;
