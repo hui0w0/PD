@@ -5975,3 +5975,13 @@ form button {
   scale: 0;
   transition: scale 1.2s ease-in-out, transform 0.3s;
 }
+
+#scrollDisplay9 {
+  scale: 0;
+  transition: scale 0.2s ease-in-out, transform 0.3s;
+}
+
+#scrollDisplay10 {
+  scale: 0;
+  transition: scale 0.5s ease-in-out, transform 0.3s;
+}

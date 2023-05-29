@@ -129,3 +129,5 @@ var options = {
   observer.observe(myDiv8);
   var myDiv9 = document.getElementById('scrollDisplay9');
   observer.observe(myDiv9);
+  var myDiv10 = document.getElementById('scrollDisplay10');
+  observer.observe(myDiv10);
