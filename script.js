@@ -21,6 +21,8 @@ anime({
     delay: anime.stagger(300, { easing: 'easeOutQuad' })
 });
 
+
+
 var honey = anime({
     targets: '.honeycomb',
     scale: [
