@@ -4744,8 +4744,9 @@ Image .item:nth-of-type(1n) {
   padding: 12px 20px;
   border: 1px solid white;
   background-color: pink;
-  width: 180px;
+  width: 191px;
 }
+
 
 .btn-right {
   float: right;
