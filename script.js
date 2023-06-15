@@ -131,3 +131,13 @@ var options = {
   observer.observe(myDiv9);
   var myDiv10 = document.getElementById('scrollDisplay10');
   observer.observe(myDiv10);
+
+
+
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }

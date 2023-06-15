@@ -13,6 +13,34 @@
 
 }
 
+@media only screen and (max-width: 600px) {
+  .header-bg {
+    display: none;
+  }
+  .title-wrapper .text {
+    font-size: 20px !important;
+  }
+  .index-words{
+    font-size: 20px !important;
+    
+  }
+  .vid-bg{
+    width: 35%;
+  }
+
+  .button{
+    height: 50px !important;
+    margin: 0 10px 25px 10px !important;
+    width: 50px !important;
+  }
+
+  .footer_text{
+    font-size: 10px;
+  }
+
+  
+}
+
 body {
   background-color: #FEF1E6;
 }
@@ -121,6 +149,126 @@ body {
   color: rgb(187, 94, 111);
 }
 
+.navbar a {
+  display: block;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .navbar-text{
+    font-size: 14px !important;
+  }
+  .navbar a:not(:first-child) {display: none;}
+
+  .navbar{
+    justify-content: end !important;
+    padding-right: 10% !important;
+  }
+
+  .navbar a.icon {
+    display: block;
+    color: #A15E5E;
+  }
+  
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+
+  .skill-wrapper{
+    min-width:0 !important;
+    padding:0 !important;
+  }
+  .skill-wrapper2{
+    min-width:0 !important;
+    padding:0 !important;
+  }
+  .skill-wrapper .skill-progress{
+    margin:20px !important;
+  }
+  .skill-wrapper2 .skill-progress2{
+    margin:20px !important;
+  }
+
+  .face-img {
+    width: 50% !important;
+    padding-bottom:5%;
+  }
+
+  .about-card{
+    margin:7% !important;
+  }
+  .awards{
+    margin-bottom: 5%;
+  }
+
+  .index-heading{
+    width:60%;
+  }
+  .mobile-padding-top-1{
+    padding-top:10%;
+  }
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px !important;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -128,7 +276,7 @@ body {
   border-radius: 5px;
   width: 80%;
   height: 70px;
-  z-index: 100;
+  z-index: 1;
   margin: 1% 10%;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
@@ -157,7 +305,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 
 .button {
   background-image: -webkit-linear-gradient(top, #f4f1ee, #fff);
