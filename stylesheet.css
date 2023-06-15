@@ -52,7 +52,7 @@ body {
 /* navbar */
 .nav-logo {
   display: block;
-  left: 70px;
+  left: 5%;
   width: 30px;
   position: absolute;
 }
@@ -434,6 +434,10 @@ footer {
 .header-spacing {
   text-align: center;
   padding: 30%;
+}
+
+.margin-0-auto{
+  margin: 0 auto;
 }
 
 .education-year {
@@ -4862,7 +4866,7 @@ Image .item:nth-of-type(1n) {
 
 .item__details {
   position: relative;
-  z-index: 1;
+  z-index: 0;
   padding: 15px;
   color: #444;
   background: #fff;
@@ -5898,7 +5902,7 @@ form button {
 
 /* Layout Stuff */
 .form-bg {
-  height: 100vh;
+  height: 120vh;
   position: relative;
   display: grid;
   justify-items: center;
